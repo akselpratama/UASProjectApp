@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background"
+    tools:context=".MainActivity"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="70dp"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@mipmap/user_logo_new"
+        android:layout_marginTop="70dp"
+        />
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/style_button_white"
+        android:drawableLeft="@mipmap/mail_bold"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:fontFamily="@font/catamaran_mediumm"
+        android:hint="Masukkan Username"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="0dp"
+        android:textColor="#292828"
+        android:textColorHint="#999" />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/style_button_white"
+        android:drawableLeft="@mipmap/password_bold"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:fontFamily="@font/catamaran_mediumm"
+        android:hint="Masukkan Password"
+        android:inputType="textPassword"
+        android:paddingLeft="0dp"
+        android:textColor="#FF292828"
+        android:textColorHint="#999" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_button_purple"
+        android:fontFamily="@font/catamaran_boldd"
+        android:onClick="checklogin"
+        android:text="LOGIN"
+        android:textColor="#FFF" />
+</LinearLayout>
