@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".profil"></activity>
+        <activity android:name=".editSewa"></activity>
+        <activity android:name=".createSewa" />
+        <activity android:name=".detailSewa" />
+        <activity android:name=".createCamera" />
+        <activity android:name=".editCamera" />
+        <activity android:name=".detailCamera" />
+        <activity android:name=".profil" />
         <activity android:name=".crud2" />
         <activity android:name=".crud1" />
         <activity android:name=".menu" />
